@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Main server",
+    "url": "https://__DOMAIN__",
+    "apiKey": "__KEY__"
+  }
+]

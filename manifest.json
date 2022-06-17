@@ -1,0 +1,45 @@
+{
+    "name": "Shlink",
+    "id": "shlink",
+    "packaging_format": 1,
+    "description": {
+        "en": "The definitive self-hosted URL shortener",
+        "fr": "The definitive self-hosted URL shortener"
+    },
+    "version": "3.1.2~ynh1",
+    "url": "https://shlink.io/",
+    "upstream": {
+        "license": "MIT",
+        "website": "https://shlink.io/",
+        "demo": "https://demo.example.com",
+        "userdoc": "https://shlink.io/documentation/",
+        "code": "https://github.com/shlinkio/shlink"
+    },
+    "license": "MIT",
+    "maintainer": {
+        "name": "John doe",
+        "email": "john.doe@example.com"
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php8.0-fpm",
+        "mysql"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}
