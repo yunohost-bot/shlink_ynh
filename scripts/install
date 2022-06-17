@@ -118,7 +118,7 @@ ynh_add_config --template="../conf/.env-sample" --destination="$final_path/.env"
 chmod 400 "$final_path/.env"
 chown $app:$app "$final_path/.env"
 
-$final_path/bin/cli api-key:generate --domain-only=$domain
+#$final_path/bin/cli api-key:generate --domain-only=$domain
 
 #=================================================
 # SETUP SSOWAT
