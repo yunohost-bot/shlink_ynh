@@ -118,7 +118,7 @@ ynh_add_config --template="../conf/.env-sample" --destination="$final_path/.env"
 chmod 400 "$final_path/.env"
 chown $app:$app "$final_path/.env"
 
-#php$phpversion /var/www/shlink/html/bin/cli api-key:generate
+$final_path/bin/cli api-key:generate --domain-only=$domain
 
 #=================================================
 # SETUP SSOWAT
@@ -130,6 +130,8 @@ if [ $is_public -eq 1 ]
 then
 	ynh_permission_update --permission="main" --add="visitors"
 fi
+
+ynh_permission_create --permission="api" --url="/api" --allowed="visitors" --show_tile="false" --protected="true"
 
 #=================================================
 # RELOAD NGINX
