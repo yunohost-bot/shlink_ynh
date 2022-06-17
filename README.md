@@ -15,28 +15,15 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-The definitive self-hosted URL shortener
+Shlink is a self-hosted URL shortener which provides both a REST and a CLI interface to interact with it.
+
+Additionally, there's also an official Shlink web client which, by making use of Shlink's REST API, provides a beautiful web UI to handle multiple Shlink instances.
 
 **Shipped version:** 3.1.2~ynh1
 
 ## Screenshots
 
 ![Screenshot of Shlink](./doc/screenshots/shlink-web-client-placeholder.jpg)
-
-## Disclaimers / important information
-
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
-
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
 
 ## Documentation and resources
 
