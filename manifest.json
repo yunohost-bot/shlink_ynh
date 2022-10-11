@@ -3,10 +3,10 @@
     "id": "shlink",
     "packaging_format": 1,
     "description": {
-        "en": "The definitive self-hosted URL shortener",
-        "fr": "The definitive self-hosted URL shortener"
+        "en": "Self-hosted URL shortener",
+        "fr": "Raccourcisseur d'URL auto-hébergé"
     },
-    "version": "3.1.2~ynh1",
+    "version": "3.3.1~ynh1",
     "url": "https://shlink.io/",
     "upstream": {
         "license": "MIT",
@@ -20,12 +20,12 @@
         "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
         "nginx",
-        "php8.0-fpm",
+        "php8.1-fpm",
         "mysql"
     ],
     "arguments": {
