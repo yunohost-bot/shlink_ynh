@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/shlinkio/shlink/releases/download/v3.3.1/shlink3.3.1_php8.1_dist.zip
-SOURCE_SUM=cbf1894681bcb13de017ce25a3a0634254ca51238ff3c9526537b741087e4326
+SOURCE_URL=https://github.com/shlinkio/shlink/releases/download/v3.4.0/shlink3.4.0_php8.1_dist.zip
+SOURCE_SUM=e37e91cd86a8d495952783d1eeb94f157ddfe42f50849a3c2f979b1f9d991963
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
