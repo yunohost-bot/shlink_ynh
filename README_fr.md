@@ -5,15 +5,15 @@ It shall NOT be edited by hand.
 
 # Shlink pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/shlink.svg)](https://dash.yunohost.org/appci/app/shlink) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/shlink.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/shlink.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/shlink.svg)](https://dash.yunohost.org/appci/app/shlink) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/shlink.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/shlink.maintain.svg)
 [![Installer Shlink avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shlink)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Shlink rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Shlink rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Shlink is a self-hosted URL shortener which provides both a REST and a CLI interface to interact with it.
 
@@ -21,15 +21,15 @@ Additionally, there's also an official Shlink web client which, by making use of
 
 **Version incluse :** 3.4.0~ynh1
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Shlink](./doc/screenshots/shlink-web-client-placeholder.jpg)
+![Capture d’écran de Shlink](./doc/screenshots/shlink-web-client-placeholder.jpg)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://shlink.io/>
+* Site officiel de l’app : <https://shlink.io/>
 * Documentation officielle utilisateur : <https://shlink.io/documentation/>
-* Dépôt de code officiel de l'app : <https://github.com/shlinkio/shlink>
+* Dépôt de code officiel de l’app : <https://github.com/shlinkio/shlink>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_shlink>
 * Signaler un bug : <https://github.com/YunoHost-Apps/shlink_ynh/issues>
 
@@ -45,4 +45,4 @@ ou
 sudo yunohost app upgrade shlink -u https://github.com/YunoHost-Apps/shlink_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
