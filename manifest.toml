@@ -16,7 +16,7 @@ userdoc = "https://shlink.io/documentation/"
 code = "https://github.com/shlinkio/shlink"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -54,7 +54,7 @@ ram.runtime = "50M"
     main.url = "/"
     api.url = "/api"
     api.allowed = "visitors"
-    api.how_tile = false
+    api.show_tile = false
     api.protected = true
 
     [resources.apt]
