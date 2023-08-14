@@ -22,7 +22,6 @@ ynh_script_progression --message="Setting up source files..." --weight=2
 
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
-
 ynh_setup_source --dest_dir="$install_dir" --source_id="front"
 
 chmod -R o-rwx "$install_dir"
@@ -35,11 +34,6 @@ ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
 
 # Create a dedicated PHP-FPM config
 ynh_add_fpm_config --usage=low --footprint=low
-
-#=================================================
-# NGINX CONFIGURATION
-#=================================================
-ynh_script_progression --message="Configuring NGINX web server..." --weight=1
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config

@@ -5,7 +5,7 @@ name = "Shlink"
 description.en = "Self-hosted URL shortener"
 description.fr = "Raccourcisseur d'URL auto-hébergé"
 
-version = "3.4.0~ynh2"
+version = "3.6.3~ynh1"
 
 maintainers = []
 
@@ -27,9 +27,7 @@ ram.runtime = "50M"
 
 [install]
     [install.domain]
-    # this is a generic question - ask strings are automatically handled by Yunohost's core
     type = "domain"
-    full_domain = true
 
     [install.init_main_permission]
     type = "group"
@@ -38,12 +36,12 @@ ram.runtime = "50M"
 [resources]
     [resources.sources]
         [resources.sources.front]
-        url = "https://github.com/shlinkio/shlink-web-client/releases/download/v3.7.3/shlink-web-client_3.7.3_dist.zip"
-        sha256 = "c843f34854a2b84fc63a8ba34073b8fe533962052feb01880bf0683846f2c612"
+        url = "https://github.com/shlinkio/shlink-web-client/releases/download/v3.10.2/shlink-web-client_3.10.2_dist.zip"
+        sha256 = "1b20c94be5025271504201199aead8ee0a7317885738a00913f5a196f9e03d7d"
 
         [resources.sources.main]
-        url = "https://github.com/shlinkio/shlink/releases/download/v3.4.0/shlink3.4.0_php8.1_dist.zip"
-        sha256 = "e37e91cd86a8d495952783d1eeb94f157ddfe42f50849a3c2f979b1f9d991963"
+        url = "https://github.com/shlinkio/shlink/releases/download/v3.6.3/shlink3.6.3_php8.2_dist.zip"
+        sha256 = "7b6fc0dde2ea8ae2c3540755bdfda561a73ad7142cfd862565e4acb796633013"
 
 
     [resources.system_user]
