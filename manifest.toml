@@ -43,7 +43,6 @@ ram.runtime = "50M"
         url = "https://github.com/shlinkio/shlink/releases/download/v3.6.3/shlink3.6.3_php8.2_dist.zip"
         sha256 = "7b6fc0dde2ea8ae2c3540755bdfda561a73ad7142cfd862565e4acb796633013"
 
-
     [resources.system_user]
 
     [resources.install_dir]
