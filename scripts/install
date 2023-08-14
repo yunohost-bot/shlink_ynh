@@ -22,7 +22,7 @@ ynh_script_progression --message="Setting up source files..." --weight=2
 
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
-ynh_setup_source --dest_dir="$install_dir" --source_id="front"
+ynh_setup_source --dest_dir="$install_dir/public" --source_id="front"
 
 chmod -R o-rwx "$install_dir"
 chown -R $app:www-data "$install_dir"
