@@ -31,7 +31,7 @@ Additionally, there's also an official Shlink web client which, by making use of
 * Site officiel de l’app : <https://shlink.io/>
 * Documentation officielle utilisateur : <https://shlink.io/documentation/>
 * Dépôt de code officiel de l’app : <https://github.com/shlinkio/shlink>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_shlink>
+* YunoHost Store: <https://apps.yunohost.org/app/shlink>
 * Signaler un bug : <https://github.com/YunoHost-Apps/shlink_ynh/issues>
 
 ## Informations pour les développeurs
