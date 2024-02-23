@@ -5,7 +5,7 @@ name = "Shlink"
 description.en = "Self-hosted URL shortener"
 description.fr = "Raccourcisseur d'URL auto-hébergé"
 
-version = "3.6.3~ynh1"
+version = "3.7.3~ynh1"
 
 maintainers = []
 
@@ -36,15 +36,15 @@ ram.runtime = "50M"
 [resources]
     [resources.sources]
         [resources.sources.front]
-        url = "https://github.com/shlinkio/shlink-web-client/releases/download/v3.10.2/shlink-web-client_3.10.2_dist.zip"
-        sha256 = "1b20c94be5025271504201199aead8ee0a7317885738a00913f5a196f9e03d7d"
+        url = "https://github.com/shlinkio/shlink-web-client/releases/download/v4.0.1/shlink-web-client_4.0.1_dist.zip"
+        sha256 = "c4b9943664dae05b92f228d3a20e42c417189f42bc90f2b723b6777926fca81c"
         autoupdate.strategy = "latest_github_release"
         autoupdate.upstream = "https://github.com/shlinkio/shlink-web-client"
         autoupdate.asset = "^shlink-web-client_.*_dist.zip$"
 
         [resources.sources.main]
-        url = "https://github.com/shlinkio/shlink/releases/download/v3.6.3/shlink3.6.3_php8.2_dist.zip"
-        sha256 = "7b6fc0dde2ea8ae2c3540755bdfda561a73ad7142cfd862565e4acb796633013"
+        url = "https://github.com/shlinkio/shlink/releases/download/v3.7.3/shlink3.7.3_php8.2_dist.zip"
+        sha256 = "5d0fd2e7ddd75e9eea5770dded8b4b2a0fec7f3273e4003a8a3c4d01d0a505ee"
         autoupdate.strategy = "latest_github_release"
         autoupdate.upstream = "https://github.com/shlinkio/shlink"
         autoupdate.asset = "^shlink.*_php8.2_dist.zip$"
