@@ -19,8 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Shlink is a self-hosted URL shortener which provides both a REST and a CLI interface to interact with it.
 
 Additionally, there's also an official Shlink web client which, by making use of Shlink's REST API, provides a beautiful web UI to handle multiple Shlink instances.
-
-**Shipped version:** 4.0.0~ynh1
+**Shipped version:** 4.0.1~ynh1
 
 ## Screenshots
 
@@ -28,11 +27,11 @@ Additionally, there's also an official Shlink web client which, by making use of
 
 ## Documentation and resources
 
-* Official app website: <https://shlink.io/>
-* Official user documentation: <https://shlink.io/documentation/>
-* Upstream app code repository: <https://github.com/shlinkio/shlink>
-* YunoHost Store: <https://apps.yunohost.org/app/shlink>
-* Report a bug: <https://github.com/YunoHost-Apps/shlink_ynh/issues>
+- Official app website: <https://shlink.io/>
+- Official user documentation: <https://shlink.io/documentation/>
+- Upstream app code repository: <https://github.com/shlinkio/shlink>
+- YunoHost Store: <https://apps.yunohost.org/app/shlink>
+- Report a bug: <https://github.com/YunoHost-Apps/shlink_ynh/issues>
 
 ## Developer info
 
