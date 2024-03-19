@@ -5,7 +5,7 @@ name = "Shlink"
 description.en = "Self-hosted URL shortener"
 description.fr = "Raccourcisseur d'URL auto-hébergé"
 
-version = "4.0.1~ynh1"
+version = "4.0.3~ynh1"
 
 maintainers = []
 
@@ -43,8 +43,8 @@ ram.runtime = "50M"
         autoupdate.asset = "^shlink-web-client_.*_dist.zip$"
 
         [resources.sources.main]
-        url = "https://github.com/shlinkio/shlink/releases/download/v4.0.1/shlink4.0.1_php8.2_dist.zip"
-        sha256 = "16a7a9ea5c687ae8fd9f450bb27e287ce0050e1934adf1784dd9dcdd6148fddd"
+        url = "https://github.com/shlinkio/shlink/releases/download/v4.0.3/shlink4.0.3_php8.2_dist.zip"
+        sha256 = "78d695d4869041c1e85607046263324018cfbc06ddf1d84ca46bb781e594d290"
         autoupdate.strategy = "latest_github_release"
         autoupdate.upstream = "https://github.com/shlinkio/shlink"
         autoupdate.asset = "^shlink.*_php8.2_dist.zip$"
