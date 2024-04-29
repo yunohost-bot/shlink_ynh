@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Shlink with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shlink)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Shlink quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -20,7 +20,7 @@ Shlink is a self-hosted URL shortener which provides both a REST and a CLI inter
 
 Additionally, there's also an official Shlink web client which, by making use of Shlink's REST API, provides a beautiful web UI to handle multiple Shlink instances.
 
-**Shipped version:** 4.0.3~ynh1
+**Shipped version:** 4.1.0~ynh1
 
 ## Screenshots
 
