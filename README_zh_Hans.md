@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Shlink
+# YunoHost 上的 Shlink
 
 [![集成程度](https://dash.yunohost.org/integration/shlink.svg)](https://dash.yunohost.org/appci/app/shlink) ![工作状态](https://ci-apps.yunohost.org/ci/badges/shlink.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/shlink.maintain.svg)
 
@@ -20,7 +20,7 @@ Shlink is a self-hosted URL shortener which provides both a REST and a CLI inter
 
 Additionally, there's also an official Shlink web client which, by making use of Shlink's REST API, provides a beautiful web UI to handle multiple Shlink instances.
 
-**分发版本：** 4.1.0~ynh1
+**分发版本：** 4.1.1~ynh1
 
 ## 截图
 
