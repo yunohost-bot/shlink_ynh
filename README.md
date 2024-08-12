@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Shlink for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/shlink.svg)](https://dash.yunohost.org/appci/app/shlink) ![Working status](https://ci-apps.yunohost.org/ci/badges/shlink.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/shlink.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/shlink.svg)](https://ci-apps.yunohost.org/ci/apps/shlink/) ![Working status](https://ci-apps.yunohost.org/ci/badges/shlink.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/shlink.maintain.svg)
 
 [![Install Shlink with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=shlink)
 
@@ -20,7 +20,7 @@ Shlink is a self-hosted URL shortener which provides both a REST and a CLI inter
 
 Additionally, there's also an official Shlink web client which, by making use of Shlink's REST API, provides a beautiful web UI to handle multiple Shlink instances.
 
-**Shipped version:** 4.1.1~ynh1
+**Shipped version:** 4.2.0~ynh1
 
 ## Screenshots
 
