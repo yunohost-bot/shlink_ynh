@@ -16,7 +16,7 @@ userdoc = "https://shlink.io/documentation/"
 code = "https://github.com/shlinkio/shlink"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 11.2.30"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -64,7 +64,7 @@ ram.runtime = "50M"
     api.protected = true
 
     [resources.apt]
-    packages = "postgresql php8.2-apcu php8.2-pgsql php8.2-gd php8.2-curl php8.2-intl php8.2-gmp php8.2-xml"
+    packages = "postgresql, php8.2-apcu, php8.2-pgsql, php8.2-gd, php8.2-curl, php8.2-intl, php8.2-gmp, php8.2-xml"
 
     [resources.database]
     type = "postgresql"
